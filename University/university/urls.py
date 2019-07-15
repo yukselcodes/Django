@@ -1,8 +1,23 @@
-from django.urls import path, include
-from . import views
+from django.urls import path
+
+from .views import department, course, student, professor
 
 
 urlpatterns = [
-    path('departments', views.department_list),
-    path('departments/<int:pk>', views.department_detail)
+    path('departments/', department.List.as_view()),
+    path('departments/detail/<int:pk>/', department.Detail.as_view()),
+    path('departments/create/', department.Create.as_view()),
+    path('departments/update/<int:pk>/', department.Update.as_view()),
+    path('courses/', course.List.as_view()),
+    path('courses/detail/<int:pk>/', course.Detail.as_view()),
+    path('courses/create/', course.Create.as_view()),
+    path('courses/update/<int:pk>/', course.Update.as_view()),
+    path('students/', student.List.as_view()),
+    path('students/detail/<int:pk>/', student.Detail.as_view()),
+    path('students/create/', student.Create.as_view()),
+    path('students/update/<int:pk>/', student.Update.as_view()),
+    path('professors/', professor.List.as_view()),
+    path('professors/detail/<int:pk>/', professor.Detail.as_view()),
+    path('professors/create/', professor.Create.as_view()),
+    path('professors/update/<int:pk>/', professor.Update.as_view()),
 ]
