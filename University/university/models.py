@@ -10,8 +10,11 @@ class Department(models.Model):
     name = models.CharField(max_length=30, null=False)
     code = models.CharField(max_length=5, null=False)
 
+    def get_absolute_url(self):
+        return reverse('department_detail', kwargs={'pk': self.id})
+
     class Meta:
-        ordering = ("name",)
+        ordering = ("id",)
 
     def __str__(self):
         return "{0}-{1}-{2}".format(self.id, self.code, self.name)
@@ -22,6 +25,9 @@ class Course(models.Model):
     name = models.CharField(max_length=30, null=False)
     capacity = models.IntegerField(null=False)
     department = models.ForeignKey(Department, on_delete=models.CASCADE)
+
+    def get_absolute_url(self):
+        return reverse('course_detail', kwargs={'pk': self.id})
 
     class Meta:
         ordering = ("id",)
@@ -38,6 +44,9 @@ class Professor(models.Model):
     department = models.OneToOneField(Department, on_delete=models.PROTECT)
     course = models.ForeignKey(Course, on_delete=models.PROTECT)
 
+    def get_absolute_url(self):
+        return reverse('professor_detail', kwargs={'pk': self.id})
+
     class Meta:
         ordering = ("id",)
 
@@ -52,6 +61,9 @@ class Student(models.Model):
     gpa = models.FloatField(default=0.0)
     course = models.ForeignKey(Course, on_delete=models.PROTECT)
     department = models.ForeignKey(Department, on_delete=models.PROTECT)
+
+    def get_absolute_url(self):
+        return reverse('student_detail', kwargs={'pk': self.id})
 
     class Meta:
         ordering = ("id",)
