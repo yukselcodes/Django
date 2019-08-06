@@ -7,6 +7,7 @@ This is the model for our Todo app
 
 
 class Todo(models.Model):
+    id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=20)
     description = models.TextField(max_length=60)
 
