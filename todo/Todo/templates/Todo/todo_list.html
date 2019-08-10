@@ -9,7 +9,7 @@
 <h1>There is no todo!</h1>
 {% else %}
 {% for todo in todos %}
-<h2>todo.title</h2> - <h3>todo.description</h3>
+<h3>{{todo.title}} -- {{todo.description}}</h3>
 {% endfor %}
 {% endif %}
 </body>
