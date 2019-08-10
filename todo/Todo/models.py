@@ -22,4 +22,4 @@ class Todo(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        return reverse('todo_detail', args=[self.title])
+        return reverse('todo_detail', args=[self.id])
