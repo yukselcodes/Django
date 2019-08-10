@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if not todo %}
+<h1>There is no such todo!</h1>
+{% else %}
+<h2>{{todo.title}}</h2> - <h3>{{todo.description}}</h3>
+{% endif %}
+</body>
+</html>
