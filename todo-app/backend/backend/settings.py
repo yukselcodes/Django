@@ -37,10 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'todo'
+    'todo',
+    'rest_framework', # django rest framework, to create an api
+    'corsheaders' # django cors headers library addition
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware', # Cors middleware to connect rect frontend
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -49,6 +52,11 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CORS_ORIGIN_WHITELIST = (
+    # url to connect to react frontend, added to whitelist for our backend
+    'localhost:3000/'
+)
 
 ROOT_URLCONF = 'backend.urls'
 
