@@ -55,7 +55,8 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = (
     # url to connect to react frontend, added to whitelist for our backend
-    'localhost:3000/'
+    'http://localhost:3000',
+    # 'http://localhost:8000',
 )
 
 ROOT_URLCONF = 'backend.urls'
