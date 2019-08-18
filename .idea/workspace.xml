@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9376a9d-1ba4-4f3c-94d3-09052e730997" name="Default Changelist" comment="" />
+    <list default="true" id="e9376a9d-1ba4-4f3c-94d3-09052e730997" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_framework/backend/backend/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_framework/backend/backend/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_framework/backend/backend/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_framework/backend/backend/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_framework/backend/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_framework/backend/rest_framework_tutorial/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_framework/backend/rest_framework_tutorial/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_framework/backend/rest_framework_tutorial/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_framework/backend/rest_framework_tutorial/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_framework/backend/rest_framework_tutorial/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_framework/backend/rest_framework_tutorial/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_framework/backend/rest_framework_tutorial/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-blog/backend/backend/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-blog/backend/backend/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-blog/backend/backend/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-blog/backend/backend/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-blog/backend/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-blog/backend/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-blog/backend/simpleblog/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-blog/backend/simpleblog/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-blog/backend/simpleblog/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-blog/backend/simpleblog/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-blog/backend/simpleblog/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-blog/backend/simpleblog/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-blog/backend/simpleblog/views.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -27,8 +55,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1OujNNY4XRgZn6n17ajd2DZYbyK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -65,10 +96,25 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/todo-app/backend/backend/urls.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
